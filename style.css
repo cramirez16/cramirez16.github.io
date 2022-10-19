@@ -1,0 +1,141 @@
+#header{
+    position: relative;
+    display: inline-block;
+    width: 1278px;
+}
+#header img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+.himynameisanakinskywalker{
+    position: absolute;
+    top: 73%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+}
+.nomargin {
+      margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1278px;
+}
+#texto1 {
+  width: 668px;
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;  
+  font-size: 20px;
+  color: #222;
+}
+.texto2 {
+  width: 550px;
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #222;
+}
+.Notable {
+  width: 550px;
+  text-align: left;
+  margin-top: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #222;
+}
+.Notable1 {
+  width: 550px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #222;
+}
+.container01 {
+  display: flex;
+  position: relative;
+  background-color: #444444;
+  width: 798px;
+  height: 140px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+.container02 {
+  display: flex;
+  position: relative;
+  background-color: #444444;
+  width: 798px;
+  height: 220px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.Together {
+  background-color: #444444;
+  width: 798px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  align-self: center;
+  z-index: 2;  
+}
+.Together02 {
+  background-color: #444444;
+  width: 798px;
+  text-align: left;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 45px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  align-self: center;
+  z-index: 2;  
+}
+.item {
+  background-color: #444444;
+  width: content;
+  color: white;
+  position: absolute;
+  left: 4px;
+  top: -92px;
+}
+#quote2::before { 
+  position: absolute; 
+  z-index: 1;
+  background-color: #444444;
+  width: content;
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 125px;  
+  transform: rotate(180deg);
+}
+#Dot {  
+  z-index: 3;
+  background-color: white;
+  width: 60px;
+  height: 92px;
+  color: red;
+}
+.Line {
+  background-color: #222;
+  width: 798px;
+  margin-top:35px;
+  margin-bottom: 0px;
+  color: #222;
+}
