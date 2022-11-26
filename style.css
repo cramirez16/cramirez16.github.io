@@ -1,22 +1,38 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+body {
+  font-size: 100%;
+}
 #header{
+    display: flex;
     position: relative;
-    display: inline-block;
     width: 1278px;
 }
 #header img {
+  border-top: 4px solid black;
   max-width: 100%;
   max-height: 100%;
-  margin: auto;
-  display: block;
+  margin: 0;
+  margin-bottom: 31px;
+}
+h1 {
+  font-weight: normal;  
+}
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .himynameisanakinskywalker{
     position: absolute;
-    top: 73%;
-    left: 46.5%;
+    top: 72.8%;
+    left: 46.1%;
     transform: translate(-50%, -50%);
     text-align: left;
-    font-size: 30px;
+    font-size: 2.2em;
     font-family: 'Abril Fatface', cursive;
+    line-height: 1.5em;
     color: #222;
 }
 .nomargin {
@@ -26,116 +42,167 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1278px;
+  width: 100%;
 }
 #texto1 {
-  width: 668px;
-  margin-top: 40px;
-  font-family: 'Josefin Sans', sans-serif;  
-  font-size: 20px;
+  width: 700px;
+  margin-top: 3%;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  letter-spacing: -0.056em;
   color: #222;
 }
+#texto1 ul {
+  padding-left: 1.7em;
+  line-height: 1.5em;
+  list-style-type: square;
+}
 .texto2 {
-  width: 550px;
+  width: 700px;
   text-align: left;
-  margin-top: 40px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
-  font-style: italic;
+  font-size: 1.029em;
+  font-style: normal;
+  letter-spacing: -0.074em;
+  line-height: 1.5em;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 36px;  
+}
+.texto3 {
+  width: 700px;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.02em;
+  font-style: normal;
+  letter-spacing: -0.074em;
+  line-height: 1.5em;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul {
+  padding-left: 60px;
+}
+.NotableTitle {
+  width: 700px;
+  text-align: left;
+  margin-bottom: 57px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  color: #222;
+}
+.NotableTitle1 {
+  width: 700px;
+  text-align: left;
+  margin-bottom: 0.15em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: -0.045em;
+  color: #222;
+}
+.NotableTitle3 {
+  width: 700px;
+  text-align: left;
+  margin-bottom: 31px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.04em;
   color: #222;
 }
 .Notable {
-  width: 550px;
+  width: 700px;
   text-align: left;
-  margin-top: 0px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.35em;
   color: #222;
+  margin-bottom: 3px;
+  letter-spacing: 0em;
+  line-height: 1.5em;
+ 
 }
 .Notable1 {
-  width: 550px;
+  width: 700px;
   text-align: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 0.95em;
   color: #222;
+  font-style: italic;
+ 
 }
-.container01 {
+.container {
   display: flex;
   position: relative;
+  width: 796px;
   background-color: #444444;
-  width: 798px;
-  height: 140px;
   list-style-type: none;
   padding: 0;
   justify-content: center;
+  font-weight: normal;
+  overflow: hidden;
 }
-.container02 {
-  display: flex;
-  position: relative;
-  background-color: #444444;
-  width: 798px;
-  height: 220px;
-  list-style-type: none;
-  padding: 0;
-  justify-content: center;
+#container01 {
+  height: 168px;
+  margin-top: 49px;
+  margin-bottom: 59px;  
 }
-
+#container02 {
+  height: 240px;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+#container03 {
+  height: 240px;
+  margin-top: 12px;
+  margin-bottom: 56px;
+}
 .Together {
   background-color: #444444;
-  width: 798px;
-  text-align: center;
-  margin-top:0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
   color: white;
   font-family: 'Abril Fatface', cursive;
-  font-size: 45px;
+  font-size: 3.0em;
+  font-weight: normal;
   align-self: center;
-  z-index: 2;  
+  z-index: 2; 
 }
 .Together02 {
-  background-color: #444444;
-  width: 798px;
   text-align: left;
-  margin-top:0px;
-  margin-bottom: 0px;
-  margin-left: 45px;
-  color: white;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 45px;
-  align-self: center;
-  z-index: 2;  
+  margin-left: 7%;
+  line-height: 1.4em;
 }
-.item {
+#quote {
   background-color: #444444;
-  width: content;
   color: white;
   position: absolute;
-  left: 4px;
-  top: -92px;
+  left:0;
 }
-#quote2::before { 
+#quote::before {
   position: absolute; 
   z-index: 1;
   background-color: #444444;
-  width: content;
   content: '”';
   font-family: 'Abril Fatface', cursive;
   color: white;
-  font-size: 125px;  
+  font-size: 9.1em;  
   transform: rotate(180deg);
 }
-#Dot {  
-  z-index: 3;
-  background-color: white;
-  width: 60px;
-  height: 92px;
-  color: red;
+.item {
+  top: -62%;
+}
+.item2 {
+  top: -43.5%;
 }
 .Line {
   background-color: #222;
-  width: 798px;
-  margin-top:35px;
-  margin-bottom: 0px;
+  width: 730px;
+  margin-top:18px;
+  margin-bottom: 62px;
   color: #222;
 }
